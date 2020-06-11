@@ -76,7 +76,8 @@ Please refer to the paper for the other detailed results.
 - [x] WGAN-GP
 - [x] LSGAN
 - [x] VGG19
-- [] SNGAN
+- [ ] SNGAN
+- [ ] MultiGPU
 
 ## References
 :hamburger:
