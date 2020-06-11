@@ -18,7 +18,7 @@ If you have any questions about this code, please feel free to contact Chao Xu (
 
 # Prerequisites
 
-The original code is in python 3.5 under the following dependencies:
+The original code is in python 3.6 under the following dependencies:
 1. tensorflow (v1.8.0)
 2. tensorlayer (v1.9.0)
 3. easydict (v1.6)
@@ -43,7 +43,10 @@ Code tested in Ubuntu 16.04 with Nvidia GPU + CUDA CuDNN (whose version is compa
     2) Save 'vgg19.npy' into 'trained_model/VGG19'
     
 3. Train model
-    1) run 'CUDA_VISIBLE_DEVICES=0 python train.py --model 'unet_refine' --mask 'gaussian1d' --maskperc 30 --lossfunciton  'gan_loss'  --penalty 'no_penalty' --train 'train' ' where you should specify model, mask, maskperc, lossfunction, penalty, train,  respectively:
+    1) run 
+    ``` CUDA_VISIBLE_DEVICES=0 python train.py --model 'unet_refine' --mask 'gaussian1d' --      maskperc 30 --lossfunciton  'gan_loss'  --penalty 'no_penalty' --train 'train' ```
+    
+    where you should specify model, mask, maskperc, lossfunction, penalty, train,  respectively:
     - model: choose from 'unet' or 'unet_refine'
     - mask: choose from 'radialcartesi', 'gaussian1d', 'gaussian2d'
     - maskperc: choose from '10', '20', '30', '40', '50' (percentage of mask)
@@ -54,14 +57,16 @@ Code tested in Ubuntu 16.04 with Nvidia GPU + CUDA CuDNN (whose version is compa
 4. Test trained model
     1) the trained model parameters in 'checkpoints/', image which you want to reconstruct in  
     'evaluate/samples/'
-    2) run ' CUDA_VISIBLE_DEVICES=0 python train.py --model 'unet_refine' --mask 'gaussian1d' --maskperc 30  --train 'evaluate' ' where you should specify model, mask, maskperc, train respectively (as above).
+    2) run 
+    ``` CUDA_VISIBLE_DEVICES=0 python train.py --model 'unet_refine' --mask 'gaussian1d' --maskperc 30  --train 'evaluate' ```
+     where you should specify model, mask, maskperc, train respectively (as above).
 
 # Results
 
 :: Results from this reporepository. ::
-<img src="photo/1.jpg">
+![image](http://github.com/Alxemade/Screenshots/raw/master/20200611/Selection_031.png)
 
-<img src="photo/2.jpg">
+![image](http://github.com/Alxemade/Screenshots/raw/master/20200611/Selection_032.png)
 
 Please refer to the paper for the other detailed results.
 
