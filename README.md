@@ -64,9 +64,9 @@ Code tested in Ubuntu 16.04 with Nvidia GPU + CUDA CuDNN (whose version is compa
 # Results
 
 :: Results from this reporepository. ::
-![image](http://github.com/Alxemade/Screenshots/raw/master/20200611/Selection_031.png)
+![image](photo/1.png)
 
-![image](http://github.com/Alxemade/Screenshots/raw/master/20200611/Selection_032.png)
+![image](photo/2.png)
 
 Please refer to the paper for the other detailed results.
 
