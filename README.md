@@ -76,11 +76,6 @@ Please refer to the paper for the other detailed results.
 
 Thanks for these source codes porviding me with knowledges to complete this repository.
 
-- ## References
-:hamburger:
-
-Thanks for these source codes porviding me with knowledges to complete this repository.
-
 - https://github.com/nebulaV/DAGAN
     - nebulaV/DAGAN
 - https://github.com/machrisaa/tensorflow-vgg
