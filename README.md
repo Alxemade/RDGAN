@@ -70,6 +70,13 @@ Code tested in Ubuntu 16.04 with Nvidia GPU + CUDA CuDNN (whose version is compa
 
 Please refer to the paper for the other detailed results.
 
+### What we are doing and going to do
+
+- [x] WGAN
+- [x] WGAN-GP
+- [x] LSGAN
+- [x] VGG19
+- [] SNGAN
 
 ## References
 :hamburger:
